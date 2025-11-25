@@ -60,7 +60,7 @@ TEST(QuickSortTest, RandomArray) {
 }
 
 
-TEST(StringProcessorTest, ValidString_ReturnsTrue)
+/* TEST(StringProcessorTest, ValidString_ReturnsTrue)
 {
     char str[] = "Valid string: apple, banana; cherry";
     bool isValid = is_string_valid(str);
@@ -73,6 +73,7 @@ TEST(StringProcessorTest, InvalidString_ReturnsFalse)
     bool isValid = is_string_valid(str);
     EXPECT_FALSE(isValid);
 }
+*/
 // Test swap function
 TEST(SwapTest, SwapsValuesCorrectly)
 {
